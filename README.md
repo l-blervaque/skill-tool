@@ -1,6 +1,6 @@
-# ClaudeLightSkill
+# skill-tool
 
-**Skill Light** — a lightweight alternative to a full Claude skill, for tool/integration commands
+The **Skill Light** pattern — a lightweight alternative to a full Claude skill, for tool/integration commands
 you run *often* and that are *tiny* (send a message, create a draft, add a label).
 
 One markdown file per tool, structured so the common-case commands are usable **instantly with zero
