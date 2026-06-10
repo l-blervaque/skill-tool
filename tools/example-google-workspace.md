@@ -6,7 +6,7 @@ covers_skills: [morning, mail-sweep]
 
 # Google Workspace — Gmail, Drive, Sheets
 
-> **Skill Light.** The `## Usages` below are proven, copy-paste-ready — the 80 % cases.
+> **skill-tool.** The `## Usages` below are proven, copy-paste-ready — the 80 % cases.
 > Use them directly, no doc-reading, no prep.
 > If your action isn't listed: read **## Reference**, derive it, run it — and **once it works,
 > add a `### Usage`** (gotchas included) so next time falls into the instant path.

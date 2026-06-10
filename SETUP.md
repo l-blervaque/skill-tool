@@ -1,6 +1,6 @@
-# Skill Light
+# skill-tool
 
-A **Skill Light** is a single markdown file per tool/integration, structured so the common-case
+A **skill-tool** is a single markdown file per tool/integration, structured so the common-case
 commands are usable **instantly, with zero doc-reading** — while the full API reference stays one
 scroll away for the rare cases.
 
@@ -19,9 +19,9 @@ It comes down to where a capability sits on the **frequency × payload-size** cu
   one-line command. Wrapping it in a skill means paying the open→read ceremony *every time* just to
   fetch a one-liner.
 
-> **Procedure used rarely → Skill. Tiny action used often → Skill Light.**
+> **Procedure used rarely → Skill. Tiny action used often → skill-tool.**
 
-A Skill Light keeps the frequent commands inline (no ceremony) and the heavy reference lazy.
+A skill-tool keeps the frequent commands inline (no ceremony) and the heavy reference lazy.
 
 ---
 
@@ -45,7 +45,7 @@ covers_skills: [..]          # optional: skills that use this tool
 
 # <Title>
 
-> **Skill Light.** Use the `## Usages` below directly (the 80 % cases), no doc-reading.
+> **skill-tool.** Use the `## Usages` below directly (the 80 % cases), no doc-reading.
 > If your action isn't listed: read `## Reference`, derive it, run it, and **add a `### Usage`**.
 > Keep usages lean (≲10); if it overflows, drop the ones you haven't used in a while.
 
@@ -91,7 +91,7 @@ unwieldy.
 
 ## 5. Files in this repo
 
-- [`tools/_TEMPLATE.md`](./tools/_TEMPLATE.md) — blank Skill Light file to copy for a new tool.
+- [`tools/_TEMPLATE.md`](./tools/_TEMPLATE.md) — blank skill-tool file to copy for a new tool.
 - [`tools/example-google-workspace.md`](./tools/example-google-workspace.md) — a worked example
   (real shape, IDs replaced with placeholders).
 

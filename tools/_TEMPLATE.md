@@ -6,7 +6,7 @@ covers_skills: []            # skills that use this tool (optional)
 
 # __TITLE__
 
-> **Skill Light.** Use the `## Usages` below directly (the 80 % cases), no doc-reading.
+> **skill-tool.** Use the `## Usages` below directly (the 80 % cases), no doc-reading.
 > If your action isn't listed: read `## Reference`, derive it, run it, and **add a `### Usage`**
 > (gotchas included) so next time falls into the instant path.
 > Keep usages lean (≲10); if it overflows, drop the ones you haven't used in a while.
