@@ -23,6 +23,27 @@ It comes down to where a capability sits on the **frequency × payload-size** cu
 
 A skill-tool keeps the frequent commands inline (no ceremony) and the heavy reference lazy.
 
+### Why not just an MCP?
+
+An MCP exposes typed tools — but every tool's schema sits **always-on** in context, and it's code +
+a running process to build, host, and keep alive. A skill-tool wraps a CLI you already have, loads
+on demand, and grows by appending a `### Usage` (one line) instead of redeploying code.
+
+> No CLI + typed/shared tool → MCP. A CLI you already drive → skill-tool.
+
+### Why not just a script?
+
+A script encapsulates *procedure* (multi-step logic); a skill-tool remembers *which command + the
+gotchas* for a frequent one-shot action. Wrapping a one-liner in a script is just one more file to
+maintain.
+
+> Multi-step logic → script. One command to remember → skill-tool.
+
+**Neither is a rival.** A skill-tool can call a script or invoke an MCP tool right inside its
+commands — both become building blocks it reaches for when an action needs them. And it works both
+ways: a skill-tool's proven `### Usage`s are ready-made parts when you author a new skill — you
+assemble it from commands that already work instead of deriving them from scratch.
+
 ---
 
 ## 2. Structure — two tiers in one file

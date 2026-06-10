@@ -12,6 +12,8 @@ the first time you work out a new command, you save it back as a `### Usage` so 
 - Full **skill** = thin description + heavy body loaded on demand → great for *heavy, rare* workflows.
 - **skill-tool** = frequent commands inline + lazy reference → great for *tiny, frequent* actions,
   where wrapping a one-liner in a skill means paying the open→read ceremony every single time.
+- Not a rival to **scripts** or **MCP**: a skill-tool can call either inside its commands — and its
+  proven usages become ready-made parts you assemble new skills from.
 
 ## Read this
 
