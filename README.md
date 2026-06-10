@@ -26,3 +26,6 @@ skill-tool to my tools."*
 - [`SETUP.md`](./SETUP.md) — the spec.
 - [`tools/_TEMPLATE.md`](./tools/_TEMPLATE.md) — blank skill-tool file.
 - [`tools/example-google-workspace.md`](./tools/example-google-workspace.md) — worked example (placeholder IDs).
+- [`skills/tool-add`](./skills/tool-add) / [`skills/tool-scan`](./skills/tool-scan) — the `/tool-*`
+  Claude Code skills (scaffold a new tool · bootstrap tools from existing skills). Install by
+  copying into `~/.claude/skills/`.
